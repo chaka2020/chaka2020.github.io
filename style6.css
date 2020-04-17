@@ -1,0 +1,91 @@
+body{
+
+	background: url("covid19-banner.jpg") no-repeat fixed;
+}
+
+#principal{
+	margin-top: 5px;
+}
+header a{
+	text-decoration: none;
+}
+header{
+	background: url("covid19-banner.jpg");
+}
+header h1{
+	font-family: cursive, "Times New Roam",sans-serif;
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+	text-align: center;
+	margin-left: 50px;
+	background: black;
+}
+nav li{
+	width: 20%;
+	height: 50px;
+    border-right: 3px solid yellow;
+    font-family: "Baskerville Old Face", "Times New Roman", Impact, sans-serif;
+    line-height: 50px;
+
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+nav li:hover{
+	background: grey;
+
+}
+nav li:last-child{
+	border-right: none;
+}
+
+nav li ul{
+	display: flex;
+	flex-direction: column;
+
+
+}
+nav li li{
+	border-right: none;
+	font-size: 0.8em;
+	padding-left: 0;
+
+}
+
+nav li ul {
+    display: none;
+    width: 60%;
+    margin-right: -20px;
+
+}
+nav li:hover ul{
+	display: flex;
+	flex-direction: column;
+}
+
+h2{
+    font-size: 1em;
+    font-family: "Baskerville Old Face", "Times New Roman", sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    
+}
+
+
+main{
+	
+	text-align: center;
+}
+main>img{
+	margin-right: 15px;
+
+}
+

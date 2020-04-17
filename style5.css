@@ -1,0 +1,256 @@
+#bloc_page{
+	width: 950px;
+	margin: auto;
+	height: 2000px;
+	padding: auto;
+	background: #235f71;
+}
+body{
+
+	background: url("covid19-banner.jpg")fixed,scroll;
+	width: 100%;
+}
+
+.iconep{
+	position: absolute;
+    top: -105px;
+    right: 1050px;
+  
+}
+@keyframes superanimation{
+	
+	0%{
+		transform: translateX(600px);
+	}
+}
+
+.iconep:hover{
+    -webkit-animation: superanimation alternate infinite 3s;
+    -moz-animation: superanimation alternate infinite 3s;
+    -o-animation: superanimation alternate infinite 3s;
+    animation: superanimation alternate infinite 3s;
+   
+   
+}
+
+#principal{
+	margin-top: 5px;
+}
+a{
+	text-decoration: none;
+}
+
+
+header h1{
+	font-family: cursive, "Times New Roam",sans-serif;
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+	padding-left: 25px;
+	padding-top: 50px;
+}
+nav{
+	width: 900px;
+	margin-left: 40px;
+	margin-top: 30px;
+
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+	text-align: center;
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	width: 150px;
+	height: 50px;
+    border-right: 3px solid yellow;
+    font-family:Verdana, "Times New Roman", Impact, sans-serif;
+    font-size: 0.8em;
+    line-height: 50px;
+    box-shadow: 0px 5px 5px;
+
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+nav li:hover{
+	background: grey;
+
+}
+.active{
+	background: silver;
+}
+nav li:last-child{
+	border-right: none;
+}
+
+nav li ul{
+	display: flex;
+	flex-direction: column;
+	width: inherit;
+}
+nav li li{
+	border-right: none;
+	font-size: 0.8em;
+	padding-left: 0;
+
+}
+
+nav li ul {
+    display: none;
+}
+
+nav li:hover ul{
+	display: flex;
+	flex-direction: column;
+	width: inherit;
+}
+#section1{
+	position: relative;
+	top: 80px;
+	left: 50px;
+	line-height: 20px;
+	margin-left: 200px;
+}
+#section1 h1{
+	font-family: "Baskerville Old Face", Anymale, "Times New Roman", sans-serif;
+	font-size: 1.8em;
+	margin-left: 15px;
+	color: white;
+}
+section a{
+	text-decoration: none;
+}
+h2{
+	font-family: Blacksword, "Times New Roman", sans-serif;
+	font-size: 1.4em;
+	color: silver;
+
+}
+.input1{
+	font-family: "Times New Roman", sans-serif;
+	font-size: 1em;
+	padding: 10px;
+	margin-left: -45px;
+}
+.input2{
+	background: yellow;
+		font-family: Anymale,"Comic Sans MS", "Times New Roman", sans-serif;
+		font-size: 1em;
+		padding: 8px;
+		box-shadow: 0px 5px 5px;
+}
+.input2:active{
+	background: silver;
+}
+#h3{
+	margin-top: -100px;
+}
+
+h3{
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	font-size: 1.1em;
+	color: white;
+	margin-left: 40px;
+	margin-top: 120px;
+	text-align: left;
+	text-transform: uppercase;
+	clear: both;
+
+}
+
+#p3{
+	color: black;
+	font-family: "Baskerville Old Face", "Times New Roman", sans-serif;
+	font-size: 1.5em;
+	border: 6px solid #9e9e9efc;
+	border-radius: 8px;
+	background: white;
+	box-shadow: 0px 5px 5px;
+	margin-left: 30px;
+	margin-top: 30px;
+	padding: 20px;
+	width: 250px;
+	text-align: justify;
+	display: inline-block;
+	float: left;
+	clear: both;
+
+}
+
+h4{ 
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	font-size: 1.2em;
+	color: yellow;
+	text-transform: uppercase;
+	clear: both;
+
+}
+
+#conteneur{
+	width: 600px;
+    display: inline-block;
+    float: right;
+	text-align: center;
+	margin-top: -40px;
+	background: #000000;
+	background-size: 600px 150px;
+}
+
+img{
+	margin-right: 15px;
+	height: 280px;
+	margin-bottom: 20px;
+
+}
+
+.plus{
+	position: relative;
+	bottom: -100px;
+	right: -250px;
+	font-family: helvetica, "Times New Roamn", sans-serif;
+	font-size: 1.2em;
+	border: 1px outset yellow;
+	background: yellow;
+	box-shadow: 0px 5px 5px;
+	border-radius: 5px;
+	width: 100px;
+	padding: 10px;
+	
+
+}
+
+#barre1{
+	border-bottom: 3px solid #ffffffa8;
+	width: 800px;
+	margin-top: 900px;
+	margin-left: 80px;
+}
+h5{
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	font-size: 1.2em;
+	color: yellow;
+	text-transform: uppercase; 
+	text-align: center;
+}
+#ps4{
+	color: black;
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	font-size: 1.1em;
+	border: 5px solid #9e9e9efc;
+	border-radius: 15px;
+	background: white;
+	padding: 20px;
+	width: 820px;
+	margin-left: 40px;
+	height: 300px;
+}
+#ps4 ul{
+	list-style-type: square;
+}
+
