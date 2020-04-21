@@ -1,0 +1,142 @@
+body
+{
+	background: url("coronavirus-4914028_1920.jpg") no-repeat;
+}
+
+header h1
+{
+	font-family: "AnyMale", Impact, Arial, sans-serif;
+	color: white;
+	font-style: bold;
+	font-size: 1.2em;
+}
+header h2
+{  
+	position: relative;
+	bottom: 10px;
+	font-family: Blacksword, Impact, Arial, sans-serif;
+	font-size: 1em;
+	color: rgb(199,199,199);
+	margin-left: 1px;
+
+}
+a
+{
+	text-decoration: none;
+}
+
+
+section h1
+{
+	position: absolute;
+	left: 600px;
+	bottom: 500px;
+	color: yellow;
+	font-family: "Baskerville Old face", Impact, Arial, sans-serif;
+	font-size: 1em;
+	font-style: bold;
+}
+
+video
+{
+	position: relative;
+	top: 54px;
+	left: 125px;
+}
+
+#images1
+{
+	position: absolute;
+	bottom: 400px;
+	display: flex;
+	margin-left: 500px;
+	top: 150px;
+}
+#images1 img
+{
+	margin-right: 1px;
+}
+
+#images2
+{
+	position: absolute;
+	top: 380px;
+	display: flex;
+	margin-left: 300px;
+}
+#images2 img
+{
+	margin-right: 10px;
+}
+
+figcaption
+{
+	position: relative;
+	left: 25px;
+	color: white;
+	font-family: "Dayrom", Arial, sans-serif;
+	font-size: 1.3em;
+	font-style: bold;
+
+}
+.figcaption1
+{
+   position: relative;
+   left: 90px;
+   top: 50px;
+   color: white;
+   font-family: "Dayrom", Arial, sans-serif;
+   font-size: 1.3em;
+   font-style: bold;
+}
+.figcaption2
+{
+   position: relative;
+   left: -10px;
+   color: white;
+   font-family: "Dayrom", Arial, sans-serif;
+   font-size: 1.2em;
+   font-style: bold;
+}
+.figcaption3
+{
+   position: relative;
+   left: -40px;
+   color: white;
+   font-family: "Dayrom", Arial, sans-serif;
+   font-size: 1.3em;
+   font-style: bold;
+}
+
+.figcaption4
+{
+   position: relative;
+   left: 25px;
+   color: white;
+   font-family: "Dayrom", Arial, sans-serif;
+   font-size: 1.3em;
+   font-style: bold;
+}
+
+footer a
+{
+	color: white;
+}
+footer a:hover
+{
+    color: yellow;
+}
+
+
+footer p
+{
+	
+	position: absolute;
+	bottom: -75px;
+	left: 900px;
+	font-family: Dayrom, Arial, sans-serif;
+	font-style: bold;
+	font-size: 1.2em;
+}
+
+

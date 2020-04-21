@@ -1,0 +1,240 @@
+#bloc_page{
+	width: 950px;
+	margin: auto;
+	height: 2500px;
+	padding: auto;
+	background: #235f71;
+}
+body{
+
+	background: url("../images/covid19-banner.jpg")fixed,scroll;
+	width: 100%;
+}
+
+.iconep{
+	position: absolute;
+    right: 1050px;
+    padding-top: 10px;
+
+  
+}
+@keyframes superanimation{
+	
+	0%{
+		transform: translateX(600px);
+	}
+}
+
+.iconep:hover{
+    -webkit-animation: superanimation alternate infinite 3s;
+    -moz-animation: superanimation alternate infinite 3s;
+    -o-animation: superanimation alternate infinite 3s;
+    animation: superanimation alternate infinite 3s;
+   
+   
+}
+
+#principal{
+	margin-top: 5px;
+}
+a{
+	text-decoration: none;
+}
+
+
+header h1{
+	font-family: cursive, "Times New Roam",sans-serif;
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+	padding-left: 25px;
+	padding-top: 50px;
+}
+nav{
+	width: 900px;
+	margin-left: 40px;
+	margin-top: 30px;
+
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+	text-align: center;
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	width: 150px;
+	height: 50px;
+    border-right: 3px solid yellow;
+    font-family:Verdana, "Times New Roman", Impact, sans-serif;
+    font-size: 0.8em;
+    line-height: 50px;
+    box-shadow: 0px 5px 5px;
+
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+nav li:hover{
+	background: grey;
+
+}
+.active{
+	background: silver;
+}
+nav li:last-child{
+	border-right: none;
+}
+
+nav li ul{
+	display: flex;
+	flex-direction: column;
+	width: inherit;
+}
+nav li li{
+	border-right: none;
+	font-size: 0.8em;
+	padding-left: 0;
+
+}
+
+nav li ul {
+    display: none;
+}
+
+nav li:hover ul{
+	display: flex;
+	flex-direction: column;
+	width: inherit;
+}
+#section1{
+	position: relative;
+	top: 80px;
+	left: 50px;
+	line-height: 20px;
+	margin-left: 200px;
+}
+#section1 h1{
+	font-family: "Baskerville Old Face", Anymale, "Times New Roman", sans-serif;
+	font-size: 1.8em;
+	margin-left: 15px;
+	color: white;
+}
+section a{
+	text-decoration: none;
+}
+h2{
+	font-family: Blacksword, "Times New Roman", sans-serif;
+	font-size: 1.4em;
+	color: silver;
+
+}
+.input1{
+	font-family: "Times New Roman", sans-serif;
+	font-size: 1em;
+	padding: 10px;
+	margin-left: -45px;
+}
+.input2{
+	background: yellow;
+		font-family: Anymale,"Comic Sans MS", "Times New Roman", sans-serif;
+		font-size: 1em;
+		padding: 8px;
+		box-shadow: 0px 5px 5px;
+}
+.input2:active{
+	background: silver;
+}
+
+#p3{
+      
+      width: 300px;
+      display: inline-block;
+      float: left;
+      margin-left: 15px;
+      margin-top: 90px;
+      border: 3px solid silver;
+      background: white;
+      font-family: cursive, sans-serif;
+      justify-content: center;
+      padding: 10px;
+      font-size: 1.1em;
+      height: 650px;
+}
+
+#conteneur{
+	width: 500px;
+	display: inline-block;
+	float: right;
+	margin-top: 90px;
+	background: black;
+	padding: 5px 15px 30px 80px;
+	height: 645px;
+	line-height: 10px;
+}
+h4{
+     margin-left: 90px;
+     font-family: "Comic Sans Ms", Helvetica, sans-serif;
+     font-size: 1.1em;
+     color: white;
+     text-transform: uppercase;
+
+}
+
+img{
+	margin-right: 15px;
+	margin-bottom: 15px;
+	
+}
+
+button{
+	position: relative;
+	bottom: 40px;
+	width: 150px;
+	color: black;
+	clear: both;
+	margin-left: 600px;
+	background: yellow;
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	font-size: 1em;
+	font-style: bold;
+	padding: 5px;
+
+}
+
+#barre1{
+	border-bottom: 3px solid #ffffffa8;
+	width: 800px;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+h5{
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	font-size: 1.2em;
+	color: yellow;
+	text-transform: uppercase; 
+	text-align: center;
+}
+
+#ps4{
+	color: black;
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	font-size: 1.1em;
+	border: 5px solid #9e9e9efc;
+	border-radius: 15px;
+	background: white;
+	padding: 20px;
+	width: 820px;
+	margin-left: 40px;
+	height: 300px;
+	box-shadow: 0px 5px 5px;
+
+}
+#ps4 ul{
+	list-style-type: square;
+}
+
