@@ -6,17 +6,39 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style5.css">
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+	<link rel="icon" type="image/icon" href="images/MAP-OF-AFRICA.png">
 	<meta name="viewport" content="width=device-width">
 	<title>InformaCOVID-19</title>
 </head>
 <body>
-	<div id="bloc_page">
+	<script>
+		alert("Hello!");
+		 var name=prompt("What's your name?")
+
+       if(name.length != 0){
+       	   if(name=="Collen")
+
+            alert("what a beautiful name!");
+
+       else
+       	alert("Hello "+ name);
+       }
+      
+      else
+      	 alert("Timide?");
+	</script>
+	
+  <div id="bloc_page">
 	<header>
 	    <div id="principal">
 		  	<!-- <i class="fa fa-head-side-mask"></i> -->
-		  	<img src="head-side-mask-solid.svg" width="40" class="iconep" />
-		  	<a href="#"><h1>InfoCOVID-19</h1></a>
+		  	<img src="images/head-side-mask-solid.svg" width="40" class="iconep" />
+		  	<a href="#" ><h1 id="h">InfoCOVID-19</h1></a>
+		  	<script>
+		    document.getElementById('h').innerHTML="InformatCOVID-19";
+		    console.log("Hello world!");
+       </script>
 		</div>
 		  
 	</header>
@@ -53,19 +75,21 @@
 	   </p>
 	   </div>
   </section>
-  <section>
-  	  	<h3>Le coronavirus, c'est quoi ?</h3>
+  <section id="section2" >
+  	  	
   	  <div id="p3">
+  	  	<h3>Le coronavirus, c'est quoi ?</h3>
   	    <p>
   	    Les coronavirus sont une famille de virus, qui provoquent des maladies allant d’un simple rhume (certains virus saisonniers sont des coronavirus) à des pathologies plus sévères comme le MERS-CoV ou le SRAS.</p>
         <p>Le virus identifié en janvier 2020 en Chine est un nouveau coronavirus, nommé SARS-CoV-2. La maladie provoquée par ce coronavirus a été nommée COVID-19 par l’Organisation mondiale de la Santé - OMS. Depuis le 11 mars 2020, l’OMS qualifie la situation mondiale du COVID-19 de pandémie ; c’est-à-dire que l’épidémie est désormais mondiale.</p>
-      </div>
-  </section>
-  <section id="conteneur">
+       </div>
+      <div id="conteneur">
   	     <h4>Les gestes barrières</h4>
-  	     <p><img src="0453173001584711357.png" alt="gestesbarrièresInfographie" width="200" ><img src="0070536001584963221.png" width="200"><img src="0110262001584961074.png" alt="gestesbarrièresInfographie" width="200"><img src="0438076001584963862.png" alt="gestesbarrièresInfographie" width="200"><p class="plus"><a href="GestB.html">Voir plus</a></p>
-  	     </p>
+  	     <p><img src="images/0453173001584711357.png" alt="gestesbarrièresInfographie" width="200" ><img src="images/0070536001584963221.png" width="200"><img src="images/0110262001584961074.png" alt="gestesbarrièresInfographie" width="200"><img src="images/0438076001584963862.png" alt="gestesbarrièresInfographie" width="200"></p>
+  	   </div>
   </section>
+
+  <a href="GestB.html"><button>Voir plus</button></a>
 
   <sectionn id="section4">
   	     <div id="barre1"></div>
@@ -84,6 +108,21 @@
          </div>
 
   </section>
+
+ <!-- <script type="text/javascript">
+		 var name = prompt("What's your name?");
+      document.write(name);
+      document.write("<h1>"+ name + "<h1>");
+      alert(name);
+      x=9%5;
+      x=2*4;
+	</script> -->
+
+	<a href = "http://www.umich.edu" onclick = "return true">University of Michigan</a><br/>
+
+
+
+	
   
   </div>
 	

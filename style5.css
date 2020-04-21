@@ -1,20 +1,21 @@
 #bloc_page{
 	width: 950px;
 	margin: auto;
-	height: 2000px;
+	height: 2500px;
 	padding: auto;
 	background: #235f71;
 }
 body{
 
-	background: url("covid19-banner.jpg")fixed,scroll;
+	background: url("../images/covid19-banner.jpg")fixed,scroll;
 	width: 100%;
 }
 
 .iconep{
 	position: absolute;
-    top: -105px;
     right: 1050px;
+    padding-top: 10px;
+
   
 }
 @keyframes superanimation{
@@ -148,87 +149,67 @@ h2{
 .input2:active{
 	background: silver;
 }
-#h3{
-	margin-top: -100px;
-}
-
-h3{
-	font-family: Helvetica, "Times New Roman", sans-serif;
-	font-size: 1.1em;
-	color: white;
-	margin-left: 40px;
-	margin-top: 120px;
-	text-align: left;
-	text-transform: uppercase;
-	clear: both;
-
-}
 
 #p3{
-	color: black;
-	font-family: "Baskerville Old Face", "Times New Roman", sans-serif;
-	font-size: 1.5em;
-	border: 6px solid #9e9e9efc;
-	border-radius: 8px;
-	background: white;
-	box-shadow: 0px 5px 5px;
-	margin-left: 30px;
-	margin-top: 30px;
-	padding: 20px;
-	width: 250px;
-	text-align: justify;
-	display: inline-block;
-	float: left;
-	clear: both;
-
-}
-
-h4{ 
-	font-family: Helvetica, "Times New Roman", sans-serif;
-	font-size: 1.2em;
-	color: yellow;
-	text-transform: uppercase;
-	clear: both;
-
+      
+      width: 300px;
+      display: inline-block;
+      float: left;
+      margin-left: 15px;
+      margin-top: 90px;
+      border: 3px solid silver;
+      background: white;
+      font-family: cursive, sans-serif;
+      justify-content: center;
+      padding: 10px;
+      font-size: 1.1em;
+      height: 650px;
 }
 
 #conteneur{
-	width: 600px;
-    display: inline-block;
-    float: right;
-	text-align: center;
-	margin-top: -40px;
-	background: #000000;
-	background-size: 600px 150px;
+	width: 500px;
+	display: inline-block;
+	float: right;
+	margin-top: 90px;
+	background: black;
+	padding: 5px 15px 30px 80px;
+	height: 645px;
+	line-height: 10px;
+}
+h4{
+     margin-left: 90px;
+     font-family: "Comic Sans Ms", Helvetica, sans-serif;
+     font-size: 1.1em;
+     color: white;
+     text-transform: uppercase;
+
 }
 
 img{
 	margin-right: 15px;
-	height: 280px;
-	margin-bottom: 20px;
-
+	margin-bottom: 15px;
+	
 }
 
-.plus{
+button{
 	position: relative;
-	bottom: -100px;
-	right: -250px;
-	font-family: helvetica, "Times New Roamn", sans-serif;
-	font-size: 1.2em;
-	border: 1px outset yellow;
+	bottom: 40px;
+	width: 150px;
+	color: black;
+	clear: both;
+	margin-left: 600px;
 	background: yellow;
-	box-shadow: 0px 5px 5px;
-	border-radius: 5px;
-	width: 100px;
-	padding: 10px;
-	
+	font-family: Helvetica, "Times New Roman", sans-serif;
+	font-size: 1em;
+	font-style: bold;
+	padding: 5px;
 
 }
 
 #barre1{
 	border-bottom: 3px solid #ffffffa8;
 	width: 800px;
-	margin-top: 900px;
+	margin-top: 50px;
 	margin-left: 80px;
 }
 h5{
@@ -238,6 +219,7 @@ h5{
 	text-transform: uppercase; 
 	text-align: center;
 }
+
 #ps4{
 	color: black;
 	font-family: Helvetica, "Times New Roman", sans-serif;
@@ -249,6 +231,8 @@ h5{
 	width: 820px;
 	margin-left: 40px;
 	height: 300px;
+	box-shadow: 0px 5px 5px;
+
 }
 #ps4 ul{
 	list-style-type: square;
